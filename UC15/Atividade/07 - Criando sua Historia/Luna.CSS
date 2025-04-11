@@ -1,0 +1,54 @@
+body {
+    background-color: #012340; /* Cor de fundo da página (cinza claro) */
+    font-family: Arial, sans-serif; /* Definindo a fonte padrão como Arial */
+    margin: 0; /* Removendo as margens padrão */
+    padding: 0; /* Removendo o preenchimento padrão */
+}
+header{
+    background-color: #012340;
+    text-align: center;
+}
+
+/* Estilo para todos os títulos h1 */
+h1 {
+    color:#03A63C; /* Cor do texto (um cinza escuro) */
+    text-align: center; /* Alinha o texto do título no centro */
+    font-size: 2.5em; /* Define o tamanho da fonte como 2.5 vezes o tamanho padrão */
+    margin-top: 20px; /* Adiciona uma margem superior de 20px */
+}
+
+/* Estilo para parágrafos */
+p {
+    color: #03A63C; /* Cor do texto (cinza claro) */
+    font-size: 2em; /* Tamanho da fonte do parágrafo, igual ao tamanho padrão */
+    line-height: 1.9; /* Define o espaçamento entre as linhas de texto */
+    margin: 10px; /* Adiciona uma margem de 20px em volta do parágrafo */
+}
+
+section{
+    border-left: #F2EBDC;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    border-left: #313876 solid 5px; /* Borda esquerda azul */
+ 
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
+.p{
+    color: #F2EBDC;
+}
+h2{
+    font-size: 30px;
+}

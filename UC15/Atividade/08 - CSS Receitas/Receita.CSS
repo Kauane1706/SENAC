@@ -1,0 +1,63 @@
+body {
+    background-color: #DB8D12; /* Cor de fundo da página (cinza claro) */
+    font-family: Arial, sans-serif; /* Definindo a fonte padrão como Arial */
+    margin: 0; /* Removendo as margens padrão */
+    padding: 0; /* Removendo o preenchimento padrão */
+}
+header{
+    background-color: #DB9963;
+    text-align: center;
+}
+
+/* Estilo para todos os títulos h1 */
+h1 {
+    color:#DBBD6B; /* Cor do texto (um cinza escuro) */
+    text-align: center; /* Alinha o texto do título no centro */
+    font-size: 2.7em; /* Define o tamanho da fonte como 2.5 vezes o tamanho padrão */
+    margin-top: 20px; /* Adiciona uma margem superior de 20px */
+}
+
+/* Estilo para parágrafos */
+p {
+    color: #DBD612; /* Cor do texto (cinza claro) */
+    font-size: 3em; /* Tamanho da fonte do parágrafo, igual ao tamanho padrão */
+    line-height: 1.9; /* Define o espaçamento entre as linhas de texto */
+    margin: 10px; /* Adiciona uma margem de 20px em volta do parágrafo */
+}
+
+section{
+    border-left: #F2EBDC;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    border-left: #313876 solid 5px; /* Borda esquerda azul */
+ 
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
+.p{
+    color: #F2EBDC;
+}
+h2, h3{
+    font-size: 40px;
+}
+li {
+    color: #020202;
+    font-size: 30px;
+    margin: 5px 0; /* Adiciona uma margem de 5px acima e abaixo de cada item da lista */
+    padding: 10px; /* Adiciona um preenchimento de 10px dentro de cada item da lista */
+    background-color: #f4f4f7; /* Cor de fundo azul para os itens da lista */
+    border-radius: 5px; /* Bordas arredondadas para os itens da lista */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}

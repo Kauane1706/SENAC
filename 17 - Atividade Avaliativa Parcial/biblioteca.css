@@ -3,7 +3,7 @@ body {
     background-position: 0%;
     background-size: contain; /* Ajusta o tamanho da imagem de fundo para cobrir toda a tela */
     background-repeat: no-repeat; /* Não repete a imagem de fundo */
-    background-attachment: fixed; /* A imagem de fundo não se move com o conteúdo da página */
+    background-attachment: scroll; /* A imagem de fundo não se move com o conteúdo da página */
     background-color: #F2EBDC; /* Cor de fundo padrão */    
     font-family: Arial, sans-serif; /* Definindo a fonte padrão como Arial */
     margin: 0; /* Removendo as margens padrão */
